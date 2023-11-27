@@ -51,18 +51,20 @@
             // label2
             // 
             label2.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(298, -4);
+            label2.Location = new Point(209, -2);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(142, 25);
+            label2.Size = new Size(99, 15);
             label2.TabIndex = 2;
             label2.Text = "DateCreated";
             // 
             // label3
             // 
             label3.Font = new Font("Times New Roman", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(-4, 126);
+            label3.Location = new Point(-3, 76);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(170, 44);
+            label3.Size = new Size(119, 26);
             label3.TabIndex = 3;
             label3.Text = "Description :";
             label3.TextAlign = ContentAlignment.MiddleLeft;
@@ -70,9 +72,10 @@
             // label4
             // 
             label4.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(-4, 72);
+            label4.Location = new Point(-3, 35);
+            label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(84, 34);
+            label4.Size = new Size(59, 26);
             label4.TabIndex = 4;
             label4.Text = "Title :";
             label4.TextAlign = ContentAlignment.MiddleLeft;
@@ -82,9 +85,10 @@
             label1.BackColor = SystemColors.Menu;
             label1.BorderStyle = BorderStyle.FixedSingle;
             label1.Font = new Font("Times New Roman", 22F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(-5, -4);
+            label1.Location = new Point(-4, -2);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(291, 61);
+            label1.Size = new Size(204, 37);
             label1.TabIndex = 5;
             label1.Text = "myToDoList";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -93,26 +97,29 @@
             // 
             TitleTextBox.AllowDrop = true;
             TitleTextBox.BorderStyle = BorderStyle.None;
-            TitleTextBox.Location = new Point(5, 106);
+            TitleTextBox.Location = new Point(4, 64);
+            TitleTextBox.Margin = new Padding(2, 2, 2, 2);
             TitleTextBox.Name = "TitleTextBox";
-            TitleTextBox.Size = new Size(250, 24);
+            TitleTextBox.Size = new Size(175, 16);
             TitleTextBox.TabIndex = 6;
             // 
             // DescriptionTextBox
             // 
-            DescriptionTextBox.Location = new Point(2, 172);
+            DescriptionTextBox.Location = new Point(1, 103);
+            DescriptionTextBox.Margin = new Padding(2, 2, 2, 2);
             DescriptionTextBox.Multiline = true;
             DescriptionTextBox.Name = "DescriptionTextBox";
-            DescriptionTextBox.Size = new Size(1048, 68);
+            DescriptionTextBox.Size = new Size(735, 50);
             DescriptionTextBox.TabIndex = 7;
             // 
             // SearchButton
             // 
             SearchButton.BackColor = SystemColors.ActiveCaption;
             SearchButton.Font = new Font("Times New Roman", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            SearchButton.Location = new Point(922, 78);
+            SearchButton.Location = new Point(645, 58);
+            SearchButton.Margin = new Padding(2, 2, 2, 2);
             SearchButton.Name = "SearchButton";
-            SearchButton.Size = new Size(112, 34);
+            SearchButton.Size = new Size(78, 33);
             SearchButton.TabIndex = 8;
             SearchButton.Text = "Search";
             SearchButton.UseVisualStyleBackColor = false;
@@ -122,9 +129,10 @@
             // 
             LoadButton.BackColor = SystemColors.ActiveCaption;
             LoadButton.Font = new Font("Times New Roman", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            LoadButton.Location = new Point(765, 77);
+            LoadButton.Location = new Point(536, -3);
+            LoadButton.Margin = new Padding(2, 2, 2, 2);
             LoadButton.Name = "LoadButton";
-            LoadButton.Size = new Size(112, 34);
+            LoadButton.Size = new Size(78, 40);
             LoadButton.TabIndex = 9;
             LoadButton.Text = "LoadAll";
             LoadButton.UseVisualStyleBackColor = false;
@@ -134,9 +142,10 @@
             // 
             EditButton.BackColor = SystemColors.ActiveCaption;
             EditButton.Font = new Font("Times New Roman", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            EditButton.Location = new Point(765, 126);
+            EditButton.Location = new Point(536, 54);
+            EditButton.Margin = new Padding(2, 2, 2, 2);
             EditButton.Name = "EditButton";
-            EditButton.Size = new Size(112, 34);
+            EditButton.Size = new Size(78, 35);
             EditButton.TabIndex = 10;
             EditButton.Text = "Edit";
             EditButton.UseVisualStyleBackColor = false;
@@ -146,9 +155,10 @@
             // 
             DeleteButton.BackColor = SystemColors.ActiveCaption;
             DeleteButton.Font = new Font("Times New Roman", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            DeleteButton.Location = new Point(627, 78);
+            DeleteButton.Location = new Point(440, 52);
+            DeleteButton.Margin = new Padding(2, 2, 2, 2);
             DeleteButton.Name = "DeleteButton";
-            DeleteButton.Size = new Size(112, 34);
+            DeleteButton.Size = new Size(78, 38);
             DeleteButton.TabIndex = 11;
             DeleteButton.Text = "Delete";
             DeleteButton.UseVisualStyleBackColor = false;
@@ -158,9 +168,10 @@
             // 
             AddButton.BackColor = SystemColors.ActiveCaption;
             AddButton.Font = new Font("Times New Roman", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            AddButton.Location = new Point(765, 20);
+            AddButton.Location = new Point(440, -2);
+            AddButton.Margin = new Padding(2, 2, 2, 2);
             AddButton.Name = "AddButton";
-            AddButton.Size = new Size(112, 34);
+            AddButton.Size = new Size(78, 34);
             AddButton.TabIndex = 12;
             AddButton.Text = "Add/Save";
             AddButton.UseVisualStyleBackColor = false;
@@ -168,40 +179,45 @@
             // 
             // DateCreatedTextBox
             // 
-            DateCreatedTextBox.Location = new Point(298, 23);
+            DateCreatedTextBox.Location = new Point(209, 14);
+            DateCreatedTextBox.Margin = new Padding(2, 2, 2, 2);
             DateCreatedTextBox.Name = "DateCreatedTextBox";
-            DateCreatedTextBox.Size = new Size(298, 31);
+            DateCreatedTextBox.Size = new Size(210, 23);
             DateCreatedTextBox.TabIndex = 13;
             // 
             // label5
             // 
             label5.Font = new Font("SimSun", 9F, FontStyle.Italic, GraphicsUnit.Point);
-            label5.Location = new Point(906, 22);
+            label5.Location = new Point(631, 2);
+            label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(150, 23);
+            label5.Size = new Size(105, 18);
             label5.TabIndex = 14;
             label5.Text = "Enter search...          ";
             // 
             // SearchBox
             // 
-            SearchBox.Location = new Point(906, 48);
+            SearchBox.Location = new Point(634, 29);
+            SearchBox.Margin = new Padding(2, 2, 2, 2);
             SearchBox.Name = "SearchBox";
-            SearchBox.Size = new Size(150, 31);
+            SearchBox.Size = new Size(106, 23);
             SearchBox.TabIndex = 15;
             // 
             // DueDateTextBox
             // 
-            DueDateTextBox.Location = new Point(298, 101);
+            DueDateTextBox.Location = new Point(209, 61);
+            DueDateTextBox.Margin = new Padding(2, 2, 2, 2);
             DueDateTextBox.Name = "DueDateTextBox";
-            DueDateTextBox.Size = new Size(298, 31);
+            DueDateTextBox.Size = new Size(210, 23);
             DueDateTextBox.TabIndex = 16;
             // 
             // label6
             // 
             label6.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(298, 77);
+            label6.Location = new Point(209, 46);
+            label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(142, 25);
+            label6.Size = new Size(99, 15);
             label6.TabIndex = 17;
             label6.Text = "DueDate";
             // 
@@ -210,19 +226,20 @@
             GridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             GridView1.BackgroundColor = SystemColors.ActiveCaption;
             GridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            GridView1.Location = new Point(-5, 246);
+            GridView1.Location = new Point(-4, 148);
+            GridView1.Margin = new Padding(2, 2, 2, 2);
             GridView1.Name = "GridView1";
             GridView1.RowHeadersWidth = 62;
             GridView1.RowTemplate.Height = 33;
-            GridView1.Size = new Size(1061, 430);
+            GridView1.Size = new Size(743, 258);
             GridView1.TabIndex = 18;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
-            ClientSize = new Size(1049, 665);
+            ClientSize = new Size(734, 399);
             Controls.Add(GridView1);
             Controls.Add(label6);
             Controls.Add(DueDateTextBox);
@@ -240,9 +257,9 @@
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Form1";
-           
             ((System.ComponentModel.ISupportInitialize)GridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

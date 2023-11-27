@@ -19,7 +19,7 @@ namespace ToDoList
         {
 
             string selectQuery = "SELECT * FROM myListTable";
-            
+
             SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, sqlConnection);
             DataTable dataTable = new DataTable();
             await Task.Delay(1000);
@@ -162,7 +162,7 @@ namespace ToDoList
                 DueDateTextBox.Value = existingDueDate;
 
                 // Simulate an asynchronous delay (replace this with actual async work)
-                await Task.Delay(1000); 
+                await Task.Delay(1000);
             }
             else
             {
@@ -188,7 +188,7 @@ namespace ToDoList
                 await Task.Run(() => adapter.Fill(dataTable)); // Execute the database query on a background thread
 
                 GridView1.DataSource = dataTable;
-               // GridView1.DataBindingComplete(); // Assuming you want to bind the data (for ASP.NET)        
+                // GridView1.DataBindingComplete(); // Assuming you want to bind the data (for ASP.NET)        
 
             }
             catch (Exception ex)

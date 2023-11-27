@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GRGmkpIEDzZRPubC1jcXiNs4u4mj4q2Pk59qCGhXjoBcMPNQz7G5YSlN4ys4LhX9aEb/2xG4IMzf3a9mIRiJoQ==",
+  "dgSpecHash": "1W/pzbmcUsY6qwitdA7ag4XR04mC5lAactyYa1YBxY/BBqXFb8BQ3pOhCzxtaY3pyrXaEFZuaeTarQGVjeo9jA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marti\\Desktop\\Extracted Files\\ToDoList\\ToDoList.csproj",
+  "projectFilePath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\ToDo-List-WebForm\\ToDo-List-WebForm\\ToDoList\\ToDoList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

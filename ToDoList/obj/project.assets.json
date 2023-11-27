@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marti\\Desktop\\Extracted Files\\ToDoList\\ToDoList.csproj",
+      "projectUniqueName": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\ToDo-List-WebForm\\ToDo-List-WebForm\\ToDoList\\ToDoList.csproj",
       "projectName": "ToDoList",
-      "projectPath": "C:\\Users\\marti\\Desktop\\Extracted Files\\ToDoList\\ToDoList.csproj",
+      "projectPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\ToDo-List-WebForm\\ToDo-List-WebForm\\ToDoList\\ToDoList.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marti\\Desktop\\Extracted Files\\ToDoList\\obj\\",
+      "outputPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\ToDo-List-WebForm\\ToDo-List-WebForm\\ToDoList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
